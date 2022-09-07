@@ -25,21 +25,33 @@
         .bio{
             margin: 2rem 3rem;
             padding: 1rem;
-            border: 1px solid black;
+        }
+        .bio-title{
+            font-weight: bold; 
+            margin-bottom:1rem;
+            text-align: center;
         }
         .bio-text{
             text-align: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
     </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous">
 </head>
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand m-auto" href="#">
+          <img src="S.png" width="30" height="30" class="d-inline-block align-top m-auto" alt="">
+          haun Ting
+        </a>
+    </nav>
     <div>
         <img class="profile center" src="Shaun.jpg">
     </div>
     <div>
-        <h1 class="headline">Shaun Ting</h2>
-        <h2 class="headline">Penultimate Year Computer Science Student</h2>
+        <h2 class="headline">Penultimate BSc Computer Science Undergraduate</h2>
+        <h3 class="headline">Singapore Management University</h2>
     </div>
     <br><br>
     <div>
@@ -47,10 +59,14 @@
         src="https://www.youtube.com/embed/cYegb6oFeIQ?autoplay=1&mute=1" autoplay>
         </iframe>
     </div>
-    <div class="bio">
-        <p class="bio-text" style="font-weight: bold; margin-bottom:1rem">A little bit about myself</p>
-        <p class="bio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est deserunt impedit incidunt. Animi inventore quidem consectetur velit deleniti! Magni asperiores eum rerum tenetur consectetur, eaque officiis minus nam tempore?</p>
+    <div class="bio card">
+        <div class="card-body">
+            <p class="bio-title card-title" style="">A little bit about myself</p>
+            <p class="bio-text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est deserunt impedit incidunt. Animi inventore quidem consectetur velit deleniti! Magni asperiores eum rerum tenetur consectetur, eaque officiis minus nam tempore?</p>
+        </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+    A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 </html>
