@@ -6,14 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin:0;
+        }
         img.profile{
-            width:100%
+            width:100%;
+            margin-bottom: 2rem;
+        }
+        .center {
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        .headline{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .bio{
+            margin: 2rem 3rem;
+            padding: 1rem;
+            border: 1px solid black;
+        }
+        .bio-text{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
     </style>
 </head>
 <body>
-    <img class="profile" src="Shaun.jpg">
-    <br>
-    <h1>My name is Shaun, I'm a Year 3 Computer Science student. I enjoy playing basketball.</h1>
+    <div>
+        <img class="profile center" src="Shaun.jpg">
+    </div>
+    <div>
+        <h1 class="headline">Shaun Ting</h2>
+        <h2 class="headline">Penultimate Year Computer Science Student</h2>
+    </div>
+    <br><br>
+    <div>
+        <iframe width="550" height="315" class="center"
+        src="https://www.youtube.com/embed/cYegb6oFeIQ?autoplay=1&mute=1" autoplay>
+        </iframe>
+    </div>
+    <div class="bio">
+        <p class="bio-text" style="font-weight: bold; margin-bottom:1rem">A little bit about myself</p>
+        <p class="bio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est deserunt impedit incidunt. Animi inventore quidem consectetur velit deleniti! Magni asperiores eum rerum tenetur consectetur, eaque officiis minus nam tempore?</p>
+    </div>
+    
 </body>
 </html>
