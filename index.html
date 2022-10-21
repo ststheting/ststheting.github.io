@@ -4,37 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin:0;
-        }
-        img.profile{
-            width:100%;
-            margin-bottom: 2rem;
-        }
-        .center {
-            display: block;
-            margin-left:auto;
-            margin-right:auto;
-        }
-        .headline{
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-        }
-        .bio{
-            margin: 2rem 3rem;
-            padding: 1rem;
-        }
-        .bio-title{
-            font-weight: bold; 
-            margin-bottom:1rem;
-            text-align: center;
-        }
-        .bio-text{
-            text-align: center;
-        }
-    </style>
+    <title>Home</title>
+    <link href="style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
     crossorigin="anonymous">
@@ -42,29 +13,27 @@
 <body>
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand m-auto" href="#">
-          <img src="S.png" width="30" height="30" class="d-inline-block align-top m-auto" alt="">
+          <img src="images/S.png" width="30" height="30" class="d-inline-block align-top m-auto" alt="">
           haun Ting
         </a>
     </nav>
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="aboutme.html">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills.html">Skills and Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+    </ul>
     <div>
-        <img class="profile center" src="Shaun.jpg">
+        <img class="profile center" height="500" src="images/Shaun.jpg">
     </div>
     <div>
         <h2 class="headline">Penultimate BSc Computer Science Undergraduate</h2>
         <h3 class="headline">Singapore Management University</h2>
-    </div>
-    <br><br>
-    <div>
-        <iframe width="550" height="315" class="center"
-        src="https://www.youtube.com/embed/cYegb6oFeIQ?autoplay=1&mute=1" autoplay>
-        </iframe>
-    </div>
-
-    <div class="bio card">
-        <div class="card-body">
-            <p class="bio-title card-title" style="">A little bit about myself</p>
-            <p class="bio-text card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est deserunt impedit incidunt. Animi inventore quidem consectetur velit deleniti! Magni asperiores eum rerum tenetur consectetur, eaque officiis minus nam tempore?</p>
-        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-
